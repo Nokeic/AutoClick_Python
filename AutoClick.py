@@ -8,7 +8,7 @@ tecla_de_execucao = input("Insira a tecla para o autoclicker funcionar (Terá qu
 tecla_de_parada = input("Insira a tecla para parar a execução: ")
 
 while True:
-    
+    sleep(0.01)
     if keyboard.is_pressed(tecla_de_execucao):
         mouse.click()
     if keyboard.is_pressed(tecla_de_parada):
