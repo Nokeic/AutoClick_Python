@@ -14,4 +14,4 @@ while True:
     if keyboard.is_pressed(tecla_de_parada):
         print("O loop foi interrompido.")
         break
-    input("Aperte enter para sair...")
+input("Aperte enter para sair...")
