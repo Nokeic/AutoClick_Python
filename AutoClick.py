@@ -4,7 +4,7 @@ from time import sleep
 
 print("Programa AutoClicker\n By Nokeic\n")
 
-tecla_de_execucao = input("Insira a tecla para o autoclicker funcionar (Terá que mate-la pressionada para o autoclick funcionar): ")
+tecla_de_execucao = input("Insira a tecla para o autoclicker funcionar (Terá que mante-la pressionada para o autoclick funcionar): ")
 tecla_de_parada = input("Insira a tecla para parar a execução: ") 
 
 while True:
