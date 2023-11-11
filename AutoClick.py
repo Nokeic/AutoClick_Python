@@ -2,6 +2,16 @@ import keyboard
 import mouse
 from time import sleep
 
+# ====== CONFIGURAÇÕES
+delay = 1 # Em segundos
+resumir = Key.f1
+pausar = Key.f2
+fechar = Key.f3
+# =====================
+
+pausa = True
+executando = True
+
 print("Programa AutoClicker\n By Nokeic\n")
 
 tecla_de_execucao = input("Insira a tecla para o autoclicker funcionar (Terá que mante-la pressionada para o autoclick funcionar): ")
@@ -15,3 +25,5 @@ while True:
         print("O loop foi interrompido.")
         break
 input("Aperte enter para sair...")
+
+# VOU VER VERIFICAR COMO FAZER O SISTEMA AUTO
